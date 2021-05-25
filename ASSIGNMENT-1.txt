@@ -1,0 +1,35 @@
+Maintain Efficient Process Utilization on Windows
+-------------------------------------------------
+
+Tasks:
+
+1.Collect process information using the Task Viewer.
+  i)Open powershell
+ ii)Type command:
+    Get-Process -Name "notepad"
+ iii)Note PID of the process
+--------------------------------------------------------
+
+2.Terminate a specific process using Windows PowerShell.
+   i)Open powershell
+  ii)Type command:
+     taskkill /F /PID [PID]
+     ( Current Execution had PID - 11120)
+ iii)The process with  PID 11120 was terminated
+--------------------------------------------------------
+
+3.Terminate multiple processes using Windows PowerShell.
+   i)Open powershell
+  ii)Type command:
+     Get-Process -Name "notepad"
+ iii)Note PID of the multiple processes
+  iv)Type command:
+      taskkill /F /PID [PID]
+     [In current execution PID were 12004 and 5192]
+   v)The processes with the above PID are terminated
+
+----------------------------------------------------------
+
+The process used in the completion of the tasks is notepad
+
+----------------------------------------------------------
