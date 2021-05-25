@@ -1,0 +1,9 @@
+Using Logs to Help Us Track Down an Issue in Windows
+-----------------------------------------------------
+
+Tasks:
+1.Finding and terminating specific processes
+2.Finding and deleting files
+3.Modifying file permissions
+4.Software updates check 
+---------------------------------------------------------
